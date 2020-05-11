@@ -10,7 +10,7 @@
 
 a {
   text-decoration: none;
-  color: #08c;
+  color: rgb(0, 122, 184);
 }
 
 a:hover {
@@ -53,6 +53,10 @@ input {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url(images/hero.jpg);
+  background-position: -45px -780px;
+  background-repeat: no-repeat;
+  height: 538px;
 }
 
 .menu {
@@ -61,7 +65,7 @@ input {
   min-height: 20px;
   display: flex;
   background: rgb(137, 137, 137);
-  background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(97, 97, 97) 48%, rgba(137, 137, 137, 1) 100%);
+  background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(87, 87, 87) 48%, rgba(137, 137, 137, 1) 120%);
   border: 0.5px solid #666;
   margin-top: 6%;
   border-radius: 7px;
@@ -73,7 +77,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #555;
+  border-right: 0.8px solid #555;
   box-shadow: inset 1px 0 #999;
 }
 
@@ -90,13 +94,6 @@ input {
   flex: none;
   width: 135px;
   border-right: none;
-}
-
-.upper {
-  background-image: url(images/hero.jpg);
-  background-position: -45px -780px;
-  background-repeat: no-repeat;
-  height: 538px;
 }
 
 h2,
@@ -178,6 +175,7 @@ li {
   display: flex;
   align-items: center;
   border-right: 1px solid #d1d1d1;
+  justify-content: center;
 }
 
 li:first-child,
