@@ -13,6 +13,10 @@ a {
   color: #08c;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 li {
   list-style: none;
 }
@@ -113,8 +117,21 @@ h3 {
 h4 {
   font-weight: 300;
   font-size: 24px;
-  margin-top: 20px;
-  width: 50%;
+  margin-top: 30px;
+  width: 42%;
+  display: inline-block;
+}
+
+h4 a {
+  color: #fff;
+}
+
+.play-icon {
+  width: 31px;
+  height: 31px;
+  background-image: url(images/play-icon.png);
+  background-position: 76.8% 0;
+  float: right;
 }
 
 .thumbs {
@@ -123,11 +140,11 @@ h4 {
 
 footer {
   font-family: 'Cabin',sans-serif;
-  font-size: 10px;
+  font-size: 10.5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 20px 180px;
+  padding: 20px 180px 10px;
   width: 100%;
   color: #6e6e6e;
 }
@@ -158,10 +175,10 @@ li:first-child, li:nth-child(2) {
 }
 
 li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(7)  {
-  flex: 0.6;
+  flex: 0.55;
 }
 
 li:last-child {
-  flex: 0.3;
+  flex: 0.25;
   border-right: none;
 }
