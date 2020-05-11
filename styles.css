@@ -21,8 +21,8 @@ li {
   list-style: none;
 }
 
-.menu a div span{
-  color: #eeeeee;
+.menu a div span {
+  color: #eee;
   font-family: 'Cabin', sans-serif;
   font-size: 80%;
   font-weight: 600;
@@ -30,14 +30,13 @@ li {
 }
 
 input {
-  background-color: rgb(225,225,225,0.1);
+  background-color: rgb(225, 225, 225, 0.1);
   border: none;
   border-radius: 30px;
   box-shadow: inset 0 2px 1px #333;
   width: 80%;
   height: 20px;
-  padding: 4px 0px 2px 7px;
- 
+  padding: 4px 0 2px 7px;
 }
 
 ::placeholder {
@@ -48,42 +47,47 @@ input {
 .fontAwesome {
   font-family: 'Helvetica', FontAwesome, sans-serif;
   color: #fff;
-} 
+}
 
 .upper {
-  display:flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .menu {
-  width: 71%;
+  width: 73%;
   height: 7%;
+  min-height: 20px;
   display: flex;
-  background: rgb(137,137,137);
-  background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(97, 97, 97) 48%, rgba(137,137,137,1) 100%); 
-  border: 1px solid #666;
+  background: rgb(137, 137, 137);
+  background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(97, 97, 97) 48%, rgba(137, 137, 137, 1) 100%);
+  border: 0.5px solid #666;
   margin-top: 6%;
-  border-radius: 5px;
-  box-shadow: 0 2px 1px rgba(112,112,112,0.4);
+  border-radius: 7px;
+  box-shadow: 0 2px 1px rgba(112, 112, 112, 0.4);
 }
 
-.menu a {
-  flex:1;
+.menu a, .input-div{
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #666;
+  border-right: 1px solid #555;
+  box-shadow: inset 1px 0 #999;
 }
 
-.menu a:first-child div span i{
+.menu a:hover {
+  text-decoration: none;
+  background-color: rgba(5, 5, 5, 0.4);
+}
+
+.menu a:first-child div span i {
   font-size: 23px;
 }
 
-.menu a:last-child div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.input-div {
+  flex: none;
   width: 135px;
   border-right: none;
 }
@@ -95,7 +99,9 @@ input {
   height: 538px;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   text-align: center;
@@ -134,12 +140,16 @@ h4 a {
   float: right;
 }
 
+.bottom {
+  margin-top: -1px;
+}
+
 .thumbs {
   display: flex;
 }
 
 footer {
-  font-family: 'Cabin',sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 10.5px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -170,11 +180,15 @@ li {
   border-right: 1px solid #d1d1d1;
 }
 
-li:first-child, li:nth-child(2) {
+li:first-child,
+li:nth-child(2) {
   flex: 0.5;
 }
 
-li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(7)  {
+li:nth-child(3),
+li:nth-child(4),
+li:nth-child(5),
+li:nth-child(7) {
   flex: 0.55;
 }
 
@@ -190,8 +204,8 @@ li:last-child {
     height: 3.5%;
   }
 
-  .menu a div span{
-    color: #eeeeee;
+  .menu a div span {
+    color: #eee;
     font-family: 'Cabin', sans-serif;
     font-size: 70%;
     font-weight: 600;
@@ -209,14 +223,14 @@ li:last-child {
     font-size: 5vh;
     margin-top: 8vh;
   }
-  
+
   h3 {
     font-weight: 300;
     font-size: 2.5vh;
     margin-top: 20px;
     width: 80%;
   }
-  
+
   h4 {
     font-weight: 300;
     font-size: 2vh;
@@ -238,8 +252,8 @@ li:last-child {
     font-size: 1vh;
   }
 
-  .menu a div span{
-    color: #eeeeee;
+  .menu a div span {
+    color: #eee;
     font-family: 'Cabin', sans-serif;
     font-size: 50%;
     font-weight: 600;
@@ -247,7 +261,7 @@ li:last-child {
     vertical-align: middle;
   }
 
-  .menu a:first-child div span i{
+  .menu a:first-child div span i {
     font-size: 2vh;
   }
 
@@ -277,14 +291,14 @@ li:last-child {
     font-size: 5vh;
     margin-top: 8vh;
   }
-  
+
   h3 {
     font-weight: 300;
     font-size: 2.5vh;
     margin-top: 20px;
     width: 80%;
   }
-  
+
   h4 {
     font-weight: 300;
     font-size: 1.5vh;
@@ -297,7 +311,6 @@ li:last-child {
   footer {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    
   }
 
   footer div {
