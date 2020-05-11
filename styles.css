@@ -13,12 +13,22 @@ a {
   color: rgb(0, 122, 184);
 }
 
+h4 a {
+  color: #fff;
+}
+
 a:hover {
   text-decoration: underline;
 }
 
 li {
   list-style: none;
+  flex: 1;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #d1d1d1;
+  justify-content: center;
 }
 
 .menu a div span {
@@ -72,7 +82,8 @@ input {
   box-shadow: 0 2px 1px rgba(112, 112, 112, 0.4);
 }
 
-.menu a, .input-div{
+.menu a,
+.input-div {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -125,10 +136,6 @@ h4 {
   display: inline-block;
 }
 
-h4 a {
-  color: #fff;
-}
-
 .play-icon {
   width: 31px;
   height: 31px;
@@ -167,15 +174,6 @@ footer div {
 ul {
   display: flex;
   height: 15px;
-}
-
-li {
-  flex: 1;
-  padding: 0 5px;
-  display: flex;
-  align-items: center;
-  border-right: 1px solid #d1d1d1;
-  justify-content: center;
 }
 
 li:first-child,
