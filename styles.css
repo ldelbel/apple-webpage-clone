@@ -1,0 +1,79 @@
+*,
+ *::before,
+ *::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu a div span{
+  color: #eeeeee;
+  font-family: 'Cabin', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-shadow: 1px 1px #555;
+}
+
+input {
+  background-color: rgb(225,225,225,0.1);
+  border: none;
+  border-radius: 30px;
+  box-shadow: inset 0 2px 1px #333;
+  width: 80%;
+  height: 20px;
+  padding-left: 7px;
+}
+
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+  color: #fff;
+} 
+
+.upper {
+  display:flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 980px;
+  height: 36px;
+  display: flex;
+  background: rgb(137,137,137);
+  background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(97, 97, 97) 48%, rgba(137,137,137,1) 100%); 
+  border: #333;
+  margin-top: 6%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #333;
+}
+
+.menu a {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #666;
+}
+
+.menu a:first-child div span i{
+  font-size: 23px;
+}
+
+.menu a:last-child div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+}
+
+.upper {
+  background-image: url(images/hero.jpg);
+  background-position: -45px -780px;
+  background-repeat: no-repeat;
+  height: 538px;
+}
