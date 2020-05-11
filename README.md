@@ -3,7 +3,7 @@
 This is a project for learning purposes. This project is a clone of an old version of apple.com website.
 
 > In this project, my goal was to improve my understanding of CSS tools and resources, such as the use of gradients and images in element backgrounds.
-> I applied three different positioning techniques to the layout, such as Flexbox, Floating and CSS Grid.
+> I applied three different positioning techniques to the layout to achieve my goals. (Floating, Flexbox and Grid)
 > In the course of the project, I improved the use of advanced CSS selectors and my code organization practices.
 
 ![screenshot](./images/screenshot.jpg)
