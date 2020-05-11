@@ -1,6 +1,6 @@
 *,
- *::before,
- *::after {
+::before,
+::after {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -10,6 +10,11 @@
 
 a {
   text-decoration: none;
+  color: #08c;
+}
+
+li {
+  list-style: none;
 }
 
 .menu a div span{
@@ -27,7 +32,13 @@ input {
   box-shadow: inset 0 2px 1px #333;
   width: 80%;
   height: 20px;
-  padding-left: 7px;
+  padding: 4px 0px 2px 7px;
+ 
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
 }
 
 .fontAwesome {
@@ -37,7 +48,8 @@ input {
 
 .upper {
   display:flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .menu {
@@ -46,10 +58,10 @@ input {
   display: flex;
   background: rgb(137,137,137);
   background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(97, 97, 97) 48%, rgba(137,137,137,1) 100%); 
-  border: #333;
+  border: 1px solid #666;
   margin-top: 6%;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px #333;
+  box-shadow: 0 2px 1px rgba(112,112,112,0.4);
 }
 
 .menu a {
@@ -69,6 +81,7 @@ input {
   justify-content: center;
   align-items: center;
   width: 135px;
+  border-right: none;
 }
 
 .upper {
@@ -76,4 +89,79 @@ input {
   background-position: -45px -780px;
   background-repeat: no-repeat;
   height: 538px;
+}
+
+h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 60px;
+  margin-top: 35px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 32px;
+  margin-top: 20px;
+  width: 65%;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.thumbs {
+  display: flex;
+}
+
+footer {
+  font-family: 'Cabin',sans-serif;
+  font-size: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 20px 180px;
+  width: 100%;
+  color: #6e6e6e;
+}
+
+footer div {
+  grid-row: 1 / 3;
+  grid-column: 1;
+  grid-gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  height: 15px;
+}
+
+li {
+  flex: 1;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #d1d1d1;
+}
+
+li:first-child, li:nth-child(2) {
+  flex: 0.5;
+}
+
+li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(7)  {
+  flex: 0.6;
+}
+
+li:last-child {
+  flex: 0.3;
+  border-right: none;
 }
