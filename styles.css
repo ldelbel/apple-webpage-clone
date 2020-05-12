@@ -152,10 +152,11 @@ h4 {
 .thumbs {
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 
 .thumb {
-  width: 25vw;
+  width: 24.5vw;
   height: 15vw;
 }
 
