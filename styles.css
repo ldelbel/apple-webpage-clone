@@ -66,7 +66,7 @@ input {
   background-image: url(images/hero.jpg);
   background-position: 10% 70%;
   background-repeat: no-repeat;
-  height: 40vw;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -225,18 +225,23 @@ li:last-child {
   border-right: none;
 }
 
-@media screen and (min-width: 769px) and (max-width: 900px) {
-
-.upper {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-image: url(images/hero.jpg);
-  background-position: 10% 70%;
-  background-repeat: no-repeat;
-  height: 80vw;
-  width: 100vw;
+@media screen and (min-width: 1500px) {
+  .upper {
+    background-size: 120%;
+  }
 }
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .upper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/hero.jpg);
+    background-position: 10% 70%;
+    background-repeat: no-repeat;
+    height: 80vw;
+    width: 100vw;
+  }
 }
 
 /* TABLETS */
@@ -266,7 +271,6 @@ li:last-child {
     background-image: url(images/play-icon.png);
     background-position: 76.5% 0;
     background-size: 600px;
-    
   }
 
   h2 {
