@@ -28,6 +28,18 @@ This project covers the following HTML and CSS3 concepts
 
 [Live Demo Link](https://rawcdn.githack.com/ldelbel/apple-webpage-clone/8e4d20135980c7d67a7575345324f39a3e98d6be/index.html)
 
+## Getting Started
+
+To get a local copy of the repository please run the following commands on your terminal:
+
+```
+$ cd <folder>
+```
+
+```
+$ git clone https://github.com/ldelbel/apple-webpage-clone.git
+```
+
 ## Author
 
 👤 **Lucas Delbel**
