@@ -1,10 +1,11 @@
 # Apple Webpage Clone
 
-This is a project for learning purposes. This project is a clone of an old version of apple.com website.
+This is a project for learning purposes. This project is a clone of an old version of apple.com website. The reference can be found in this link: https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 > In this project, my goal was to improve my understanding of CSS tools and resources, such as the use of gradients and images in element backgrounds.
 > I applied three different positioning techniques to the layout to achieve my goals. (Floating, Flexbox and Grid)
 > In the course of the project, I improved the use of advanced CSS selectors and my code organization practices.
+> This project includes the use of Media Queries to handle responsiveness
 
 ![screenshot](./images/screenshot.jpg)
 
@@ -25,7 +26,19 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/ldelbel/apple-webpage-clone/8e4d20135980c7d67a7575345324f39a3e98d6be/index.html)
+
+## Getting Started
+
+To get a local copy of the repository please run the following commands on your terminal:
+
+```
+$ cd <folder>
+```
+
+```
+$ git clone https://github.com/ldelbel/apple-webpage-clone.git
+```
 
 ## Author
 
