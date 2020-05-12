@@ -66,8 +66,8 @@ input:active {
   background-image: url(images/hero.jpg);
   background-position: 10% 95%;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
+  height: 93vh;
+  width: 100%;
 }
 
 .menu {
@@ -145,12 +145,13 @@ h4 {
 }
 
 .bottom {
-  margin-top: -1px;
+  margin-top: 1px;
+  width: 100%;
 }
 
 .thumbs {
   display: flex;
-  width: 100vw;
+  width: 100%;
 }
 
 .thumb {
