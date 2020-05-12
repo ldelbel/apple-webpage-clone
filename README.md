@@ -26,7 +26,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ldelbel/apple-webpage-clone/348a63da4b41ae06d6f96aca504d7fe551d3ce23/index.html)
+[Live Demo Link](https://rawcdn.githack.com/ldelbel/apple-webpage-clone/8e4d20135980c7d67a7575345324f39a3e98d6be/index.html)
 
 ## Author
 
