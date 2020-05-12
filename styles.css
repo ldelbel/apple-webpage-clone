@@ -156,8 +156,33 @@ h4 {
 
 .thumbs img {
   width: 25vw;
+  height: 10vw;
 }
 
+.thumb {
+  width: 25vw;
+  height: 15vw;
+}
+
+.t-1 {
+  background-image: url(images/thumb-1.jpg);
+  background-size: cover;
+}
+
+.t-2 {
+  background-image: url(images/thumb-2.jpg);
+  background-size: cover;
+}
+
+.t-3 {
+  background-image: url(images/thumb-3.jpg);
+  background-size: cover;
+}
+
+.t-4 {
+  background-image: url(images/thumb-4.jpg);
+  background-size: cover;
+}
 
 footer {
   font-family: 'Cabin', sans-serif;
@@ -319,10 +344,12 @@ li:last-child {
   .thumbs {
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 0.5vh;
   }
 
-  .thumbs img {
+  .thumb {
     width: 49vw;
+    height: 27vw;
   }
 
   h2 {
