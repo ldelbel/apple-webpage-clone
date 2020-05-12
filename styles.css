@@ -64,9 +64,10 @@ input {
   align-items: center;
   flex-direction: column;
   background-image: url(images/hero.jpg);
-  background-position: -45px -780px;
+  background-position: 10% 70%;
   background-repeat: no-repeat;
-  height: 538px;
+  height: 40vw;
+  width: 100vw;
 }
 
 .menu {
@@ -150,7 +151,13 @@ h4 {
 
 .thumbs {
   display: flex;
+  width: 100vw;
 }
+
+.thumbs img {
+  width: 25vw;
+}
+
 
 footer {
   font-family: 'Cabin', sans-serif;
@@ -193,6 +200,20 @@ li:last-child {
   border-right: none;
 }
 
+@media screen and (min-width: 769px) and (max-width: 900px) {
+
+.upper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(images/hero.jpg);
+  background-position: 10% 70%;
+  background-repeat: no-repeat;
+  height: 80vw;
+  width: 100vw;
+}
+}
+
 /* TABLETS */
 @media screen and (max-width: 768px) {
   .menu {
@@ -214,6 +235,15 @@ li:last-child {
     height: 80vh;
   }
 
+  .play-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url(images/play-icon.png);
+    background-position: 76.5% 0;
+    background-size: 600px;
+    
+  }
+
   h2 {
     font-weight: 100;
     font-size: 5vh;
@@ -232,14 +262,27 @@ li:last-child {
     font-size: 2vh;
     margin-top: 30px;
     width: 65%;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 2vh;
+  }
+
+  footer div {
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 /* SMARTPHONES */
 @media screen and (max-width: 425px) {
   .menu {
-    width: 95%;
+    width: 95vw;
     height: 2.5vh;
   }
 
@@ -307,6 +350,8 @@ li:last-child {
   footer {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
+    margin: 0;
+    padding-left: 1vw;
   }
 
   footer div {
