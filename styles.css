@@ -305,6 +305,7 @@ li:last-child {
   input {
     height: 1.7vh;
     font-size: 1vh;
+    background-size: 9%;
   }
 
   .menu a div span {
