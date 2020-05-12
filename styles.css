@@ -31,7 +31,7 @@ li {
   justify-content: center;
 }
 
-.menu a div span {
+.item {
   color: #eee;
   font-family: 'Cabin', sans-serif;
   font-size: 80%;
@@ -64,7 +64,7 @@ input:active {
   align-items: center;
   flex-direction: column;
   background-image: url(images/hero.jpg);
-  background-position: 10% 70%;
+  background-position: 10% 95%;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
@@ -238,16 +238,12 @@ li:last-child {
     height: 3.5%;
   }
 
-  .menu a div span {
-    color: #eee;
-    font-family: 'Cabin', sans-serif;
+  .item {
     font-size: 70%;
-    font-weight: 600;
-    text-shadow: 1px 1px #555;
   }
 
   .upper {
-    background-size: 1024px auto;
+    background-size: 1024px;
     background-position: 50% 90%;
     height: 80vh;
   }
@@ -255,7 +251,6 @@ li:last-child {
   .play-icon {
     width: 20px;
     height: 20px;
-    background-image: url(images/play-icon.png);
     background-position: 76.5% 0;
     background-size: 600px;
   }
@@ -308,16 +303,12 @@ li:last-child {
     background-size: 9%;
   }
 
-  .menu a div span {
-    color: #eee;
-    font-family: 'Cabin', sans-serif;
+  .item {
     font-size: 50%;
-    font-weight: 600;
-    text-shadow: 1px 1px #555;
     vertical-align: middle;
   }
 
-  .menu a:first-child div span i {
+  .fab {
     font-size: 2vh;
   }
 
