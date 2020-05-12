@@ -41,6 +41,10 @@ li {
 
 input {
   background-color: rgb(225, 225, 225, 0.1);
+  background-image: url(images/search-icon.png);
+  background-size: 17%;
+  background-position: 4% 80%;
+  background-repeat: no-repeat;
   border: none;
   border-radius: 30px;
   box-shadow: inset 0 2px 1px #333;
@@ -49,14 +53,10 @@ input {
   padding: 4px 0 2px 7px;
 }
 
-::placeholder {
-  color: #fff;
-  opacity: 1;
-}
-
-.fontAwesome {
-  font-family: 'Helvetica', FontAwesome, sans-serif;
-  color: #fff;
+input:focus,
+input:active {
+  background-image: none;
+  outline: none;
 }
 
 .upper {
@@ -75,7 +75,6 @@ input {
   height: 7%;
   min-height: 20px;
   display: flex;
-  background: rgb(137, 137, 137);
   background: linear-gradient(180deg, rgb(116, 116, 116) 47%, rgb(87, 87, 87) 48%, rgba(137, 137, 137, 1) 120%);
   border: 0.5px solid #666;
   margin-top: 6%;
@@ -154,11 +153,6 @@ h4 {
   width: 100vw;
 }
 
-.thumbs img {
-  width: 25vw;
-  height: 10vw;
-}
-
 .thumb {
   width: 25vw;
   height: 15vw;
@@ -233,14 +227,7 @@ li:last-child {
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
   .upper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(images/hero.jpg);
-    background-position: 10% 70%;
-    background-repeat: no-repeat;
     height: 80vw;
-    width: 100vw;
   }
 }
 
